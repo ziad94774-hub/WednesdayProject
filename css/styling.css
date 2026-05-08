@@ -19,6 +19,21 @@ background-position: center;
 .fill svg{
  width:1.99vw;
 }
+.footer svg{
+  
+    width: 2vw;
+    margin-left: 5%;
+}
+.footer svg:hover{
+
+background-color: black;
+    color: gold;
+    transition: 2s;
+    transform: rotate(360deg);
+    border: none;
+    border-radius: 10%;
+}
+
 .asideSvg{
   animation-play-state: running;
   animation-fill-mode: none;
@@ -307,7 +322,8 @@ transition: 0.3s;
 box-shadow: 5px 5px 10px 0px #525e8f;
 }
 video{
-
+    border-radius: 10%;
+    border: 3px solid purple;
     width: 100%;
     height: auto;
     max-width: 800px;
