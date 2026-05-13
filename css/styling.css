@@ -1,10 +1,10 @@
 *{
  box-sizing: border-box;
  font-family:Arial, Helvetica, sans-serif
-
-
 }
+
 body{
+  margin: 0;
 color: white;
 width: 100%;
 height: 100%;
@@ -29,8 +29,8 @@ opacity: 1;
 }
 .footer svg{
   
-    width: 2vw;
-    margin-left: 5%;
+    width: 3vw;
+    margin-left: 6%;
 }
 .footer svg:hover{
 
@@ -109,17 +109,22 @@ display: flex;
 
 
 }
+
 .fill{
-   
 color: white;
 text-align: center;
 font-size: 1rem;
+ position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: black;
 
 }
+ 
 .fill nav,
   .sidebar 
 {
-   animation-name: ruheef;
+animation-name: ruheef;
 animation-duration: 5s;
 animation-iteration-count: infinite;
 animation-play-state: running;
@@ -127,23 +132,22 @@ animation-timing-function: linear;
 animation-fill-mode: forwards;
 animation-delay: 0.5;
 animation-direction: alternate-reverse;
-
 border-radius: 15%; 
     border: 5px solid #9e86eb;
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly; 
 }
 .footer{
   width: 100%;
   height: 100%;
   text-align: center;
-justify-content: center;
+  justify-content: center;
     display: flex;
     text-align: center;
     color: white;
      font-size: 1rem;
+     margin-bottom: 3%;
 }
 a{
     text-decoration: none;
@@ -171,12 +175,14 @@ box-shadow: 5px 5px 10px 0px #525e8f;
  font-size: 1rem;
  /* border: 1px solid black; */
 }
+
 .content{
    font-size: 1rem;
    /* display: flex;
    flex-flow: column wrap;
    justify-content: center; */
    margin-left: 20%;
+ 
 }
 p{
     color: white;
@@ -375,8 +381,6 @@ video{
     max-width: 800px;
 }
 [type="submit"]{
-
-
   background: transparent;
 }
 [type="submit"]:hover{
@@ -390,6 +394,13 @@ textarea{
   border-radius: 10%;
     border: 3px solid black;
     color: whitesmoke;
+}
+a:focus{
+  color:black;
+  background-color: aqua;
+}
+a:visited{
+color: chocolate;
 }
 
        /* Mobile  */
@@ -407,6 +418,18 @@ textarea{
     flex-direction: column;
     justify-content: space-between;
     margin-right: 5%;
+}
+.footer{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+    display: flex;
+    text-align: center;
+    color: white;
+     font-size: 1rem;
+     margin-bottom: 3%;
+     margin-top: 5%;
 }
       }
         /* Small screen */
@@ -448,8 +471,20 @@ textarea{
         
       }
         /* Large screen */
-       @media (min-width:1200px){
-        
+    @media (min-width:1200px){
+     .content{
+   font-size: 1rem;
+   /* display: flex;
+   flex-flow: column wrap;
+   justify-content: center; */
+   margin-left: 12%;
+      }
+    .sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 12%;
+}
       }
 
 
