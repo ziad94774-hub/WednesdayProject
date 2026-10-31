@@ -411,14 +411,14 @@ color: chocolate;
    /* display: flex;
    flex-flow: column wrap; */
    justify-content: center;
-   margin-left: 0.5%;
-      }
-    .sidebar{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-right: 0.5%;
-    margin-bottom: 2%;
+   margin-left: 1%;
+  }
+  .sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 1%;
+  margin-bottom: 10%;
 }
 .footer{
   width: 100%;
@@ -430,11 +430,21 @@ color: chocolate;
     color: white;
      font-size: 1rem;
      margin-bottom: 3%;
-     margin-top: 5%;
+     margin-top:10%;
 }
 
-
-        /* Small screen */
+.fill{
+color: white;
+text-align: center;
+font-size: 1rem;
+ position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: black;
+ margin-right:auto;
+  margin-left:auto;
+}
+}       /* Small screen */
 
  @media (min-width:768px) and (max-width:991px){
 
