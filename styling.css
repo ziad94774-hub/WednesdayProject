@@ -114,10 +114,11 @@ display: flex;
 color: white;
 text-align: center;
 font-size: 1rem;
- position: sticky;
-  top: 0;
-  overflow: hidden;
-  background-color: black;
+position: sticky;
+top: 0;
+overflow: hidden;
+background-color: black;
+z-index: 1;
 
 }
  
@@ -379,6 +380,8 @@ video{
     width: 100%;
     height: auto;
     max-width: 800px;
+    z-index: 1;
+  
 }
 [type="submit"]{
   background: transparent;

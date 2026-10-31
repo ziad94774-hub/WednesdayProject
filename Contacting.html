@@ -68,7 +68,7 @@
     <fieldset class="Dad">
     <legend class="seqaure">Send Us A Messaage  </legend>
 
-  <form>
+  <form onsubmit="submitMessage(event)">
     <label for="456">Your Name:</label>
     <input type="text" required maxlength="30" minlength="10" id="456" placeholder="Enter Your Name">
     <br>
@@ -89,8 +89,8 @@
     ></textarea>
     </fieldset>
     <br>
-      <button>Submit</button>
-      <button>Reset</button>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
   </form>
 
 
@@ -158,6 +158,6 @@
       
   </footer>
   
- 
+ <script src="scripting.js"></script>
 </body>
 </html>
