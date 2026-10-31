@@ -407,17 +407,17 @@ color: chocolate;
 
  @media (max-width:767px){
    .content{
-   font-size: 1rem;
+   font-size: 0.8rem;
    /* display: flex;
    flex-flow: column wrap;
    justify-content: center; */
-   margin-left: 5%;
+   margin-left: 0.5%;
       }
     .sidebar{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 5%;
+    margin-right: 0.5%;
 }
 .footer{
   width: 100%;
@@ -432,7 +432,7 @@ color: chocolate;
      margin-top: 5%;
 }
 
-      }
+
         /* Small screen */
 
  @media (min-width:768px) and (max-width:991px){
